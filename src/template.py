@@ -1,11 +1,11 @@
 from src.input_util import get_input
 
 
-def part1(input_data: str) -> int:
+def part1(input_data: str):
     pass
 
 
-def part2(input_data: str) -> int:
+def part2(input_data: str):
     pass
 
 

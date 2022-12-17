@@ -72,7 +72,7 @@ def what_should_i_pick(other: RPC, result: Result) -> RPC:
         return this_beats_that(move_that_looses)
 
 
-def part1(input_data: str) -> int:
+def part1(input_data: str):
     total_score = 0
     for line in input_data.split('\n'):
         if line:
@@ -81,7 +81,7 @@ def part1(input_data: str) -> int:
     return total_score
 
 
-def part2(input_data: str) -> int:
+def part2(input_data: str):
     total_score = 0
     for line in input_data.split('\n'):
         if line:

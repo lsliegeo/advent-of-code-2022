@@ -1,7 +1,7 @@
 from src.input_util import get_input
 
 
-def part1(input_data: str) -> int:
+def part1(input_data: str):
     best = current = 0
     for line in input_data.split('\n'):
         if line:
@@ -13,7 +13,7 @@ def part1(input_data: str) -> int:
     return best
 
 
-def part2(input_data: str) -> int:
+def part2(input_data: str):
     totals = []
     current = 0
     for line in input_data.split('\n'):

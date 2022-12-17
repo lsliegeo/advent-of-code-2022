@@ -11,12 +11,12 @@ def parse_line(line: str) -> tuple[set, set]:
     return parse_tasks(a), parse_tasks(b)
 
 
-def part1(input_data: str) -> int:
+def part1(input_data: str):
     lines = [parse_line(line) for line in input_data.split('\n') if line]
     return sum(a <= b or b <= a for a, b in lines)
 
 
-def part2(input_data: str) -> int:
+def part2(input_data: str):
     lines = [parse_line(line) for line in input_data.split('\n') if line]
     return sum(bool(a & b) for a, b in lines)
 

@@ -7,7 +7,7 @@ def priority(char: str) -> int:
     return string.ascii_letters.index(char) + 1
 
 
-def part1(input_data: str) -> int:
+def part1(input_data: str):
     score = 0
     for line in input_data.split('\n'):
         if line:
@@ -17,7 +17,7 @@ def part1(input_data: str) -> int:
     return score
 
 
-def part2(input_data: str) -> int:
+def part2(input_data: str):
     score = 0
     lines = [line for line in input_data.split('\n') if line]
     for group_index in range(0, len(lines), 3):
