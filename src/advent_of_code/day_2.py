@@ -72,7 +72,7 @@ def what_should_i_pick(other: RPC, result: Result) -> RPC:
         return this_beats_that(move_that_looses)
 
 
-def part1(input_data: str):
+def part1(input_data: str) -> int:
     total_score = 0
     for line in input_data.split('\n'):
         if line:
@@ -81,7 +81,7 @@ def part1(input_data: str):
     return total_score
 
 
-def part2(input_data: str):
+def part2(input_data: str) -> int:
     total_score = 0
     for line in input_data.split('\n'):
         if line:
@@ -92,5 +92,5 @@ def part2(input_data: str):
 
 
 if __name__ == '__main__':
-    print(f'Solution for day 1 is: {part1(get_input())}')
-    print(f'Solution for day 2 is: {part2(get_input())}')
+    print(f'Solution for part 1 is: {part1(get_input())}')
+    print(f'Solution for part 2 is: {part2(get_input())}')
