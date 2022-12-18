@@ -1,10 +1,8 @@
 from src.input_util import get_input
 
-EXAMPLE_PART_1 = """
-"""
+EXAMPLE_PART_1 = """"""
 
-EXAMPLE_PART_2 = """
-"""
+EXAMPLE_PART_2 = """"""
 
 
 def part1(input_data: str):
