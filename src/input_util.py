@@ -10,4 +10,4 @@ def get_input() -> str:
     except ValueError:
         raise ValueError(f'Unexpected script name: {script_file_name}')
     input_file = Path(__file__).parent.parent / 'input' / f'{day}.txt'
-    return input_file.read_text()
+    return input_file.read_text().strip('\n')

@@ -9,8 +9,7 @@ D 1
 R 4
 D 1
 L 5
-R 2
-"""
+R 2"""
 
 EXAMPLE_PART_2 = """R 5
 U 8
@@ -19,8 +18,7 @@ D 3
 R 17
 D 10
 L 25
-U 20
-"""
+U 20"""
 
 
 class Direction(Enum):
